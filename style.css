@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_8q_kkq-YnM6cD2M3FVhCUEYrCtCLv8rMvw&usqp=CAU);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+}
+
+img:hover {
+    width: 390px;
+    height: 340px;
+    margin-left: 40px;
+    transition: 1.5s;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Додаткові стилі для футера */
+.footer {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    color: rgb(255, 255, 255);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+b {
+    color: #d51116;
+    font-size: 20px;
+}
+
+i {
+    opacity: 0.9;
+}
+
+i:hover {
+    color: brown;
+}
+
+.p {
+    opacity: 0.8;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Забезпечує, щоб контент завжди займав принаймні 100% висоти екрану */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Решта вашого існуючого стилю */
+
+section {
+    flex: 1; /* Займати весь доступний простір */
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(142, 158, 165);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Змінено на relative */
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    position: absolute; /* Змінено на absolute */
+    bottom: 0;
+    width: 100%;
+}
+
+li{
+    font-size: 25px;
+    color: rgb(35, 35, 35);
+    text-decoration: none;
+}
+
+.divv{
+    background-color: rgb(142, 142, 142);
+    width: 162px;
+    height: 60px;
+}
+
+a{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.divvv{
+    padding-left: 30px;
+}
+
+
+.mango{
+    float: right;
+    margin-top: -1030px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.taufun{
+    float: right;
+    margin-top: -190px;
+    margin-right: 100px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cakura{
+    float: right;
+    margin-top: -480px ;
+    margin-right: -100px;
+    
+}
+
+.ver{
+    float: right;
+    margin-top: -200px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.drink{
+    font-size: 39px;
+    text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banan{
+    float: right;
+    margin-top: -570px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bona{
+    float: right;
+    margin-top: -130px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.poto2{
+    height: 200px;
+    width: 80px;
+    margin-left: 1000px;
+}
+
+.poto4{
+    margin-left: 1000px;
+}
+
